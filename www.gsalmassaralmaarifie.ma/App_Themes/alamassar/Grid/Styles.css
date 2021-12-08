@@ -1,0 +1,167 @@
+.TSGrid_alamassar td,
+.TSGrid_alamassar td a
+{ 
+      font: normal 11px arial,verdana,sans-serif;
+}
+.TSGrid_alamassar
+{
+	background-color: #e1e5e9;
+	color: black;
+	font-size: 11px;
+	font-family:Tahoma;
+	text-align: left;
+	
+	border-radius: 5px ;
+	padding:5px;	
+}
+
+.TSGrid_alamassar a,
+.GridPager_alamassar a
+{
+	color: black;
+}
+
+.MasterTable_alamassar
+{
+	background-color: #fff;
+	color: black;
+	border: 0;
+	border-top: 1px solid #c5c2b2;
+
+	font-size: 13px;
+	/*-moz-user-select: none;*/ /*disables text selecting in Firefox to combat unpleasant visual appearance*/
+}
+
+.GridHeader_alamassar,
+.ResizeHeader_alamassar
+{
+	background-color: ButtonFace;
+	color: WindowText;
+	border-right: 2px inset white;
+	border-top: 3px solid ButtonFace;
+	border-bottom: 2px solid #d2cfbe;
+	font-weight:normal;
+	padding: 4px 3px;
+	font-weight:normal;
+}
+
+.GridHeader_alamassar a
+{
+	text-decoration: none;
+	color: WindowText;
+}
+
+.GridHeader_alamassar span
+{
+	text-decoration: none;
+	padding-left: 3px;
+	color: WindowText;
+}
+
+.ResizeHeader_alamassar
+{
+	background-image: url(Img/resizeHeader.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.GridRow_alamassar td,
+.GridAltRow_alamassar td,
+.GridEditRow_alamassar td
+{
+	border-bottom: 1px solid #EAE9E1;
+	padding:2px 4px;
+}
+
+/* IE6 can't use bottom borders, because they remain visible when collapsing groups of rows */
+* html .GridRow_alamassar td,
+* html .GridAltRow_alamassar td,
+* html .GridEditRow_alamassar td
+{
+    border-bottom:0;
+}
+* html .GridRow_alamassar,
+* html .GridAltRow_alamassar,
+* html .GridEditRow_alamassar
+{
+    background:url(Img/borderbottom.gif) left bottom repeat-x;
+}
+
+.SelectedRow_alamassar
+{
+	background: Highlight !important;
+	color: white;
+}
+.SelectedRow_alamassar td
+{
+	border-bottom: 1px solid #666;
+}
+
+.GridEditRow_alamassar
+{
+	background-color: #ffffe1;
+}
+.GridEditRow_alamassar input
+{
+	font-size: 11px;
+}
+
+.ActiveRow_alamassar
+{
+	background: #ffffe1 !important;
+	color: black;
+}
+.ActiveRow_alamassar td
+{
+	padding: 2px 4px;
+}
+
+.GridPager_alamassar
+{
+	background-color: ButtonFace;
+	color: WindowText;
+}
+.GridPager_alamassar td
+{
+	border-top: 3px solid #d2cfbe;
+	padding: 3px 9px;
+}
+
+.GroupPanelItems_alamassar
+{
+	white-space:nowrap;
+	color: white;
+	padding-bottom:4px;
+}
+
+.GroupPanel_alamassar
+{
+	background:url(Img/topBg.gif) 0 0 repeat-x #039;
+	width: 100%;
+	height: 20px;
+	border-collapse: collapse;
+	color: white;
+}
+
+.GroupPanel_alamassar td
+{
+	padding-left: 4px;
+}
+
+.GroupPanel_alamassar table table
+{
+	border-collapse: collapse;
+}
+
+.GroupHeader_alamassar td
+{
+	border-bottom: 2px solid #7BA4E0;
+	padding-top:3px;
+	color: #3768b9;
+	font-weight: bold;
+}
+
+.GridFooter_alamassar td
+{
+    padding:0 4px;
+}

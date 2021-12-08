@@ -1,0 +1,223 @@
+
+.TSPanelbar_alamassar
+{
+	background: transparent;
+	white-space: nowrap;	
+}
+
+.TSPanelbar_alamassar .rootGroup 
+{
+}
+		
+.TSPanelbar_alamassar .rootGroup .link:hover
+{
+	background: transparent url('Img/Btn-menu4.png') no-repeat center;
+	text-decoration:none;
+}
+.TSPanelbar_alamassar .text
+{
+	color: #747679;	
+	font: bold 12px Helvetica,Verdana, Arial,  sans-serif;
+	height: 33px;	
+}
+
+.TSPanelbar_alamassar .image
+{
+	margin: 4px 0px;
+}
+.TSPanelbar_alamassar .rootGroup .text
+{
+	background: none;
+	line-height: 29px;
+	padding-left: 35px;
+	
+}
+
+.TSPanelbar_alamassar .rootGroup .link
+{
+	background: transparent url('Img/Btn-menu4.png') no-repeat;
+	margin:0 0 0px 5px ;
+}
+
+.TSPanelbar_alamassar .group .text,.TSPanelbar_alamassar .group .link:hover .text
+{
+    color:#0674A7;
+	height:20px;
+	background: url('img/arrow.png') no-repeat 3px 0;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 20px;
+	margin-left:25px;	
+	padding-left:15px;	
+	text-indent:0px;
+	
+}
+
+.TSPanelbar_alamassar .group .link
+{
+	background: none;		
+}
+
+.TSPanelbar_alamassar .group .link:hover
+{
+    color:#f9c22d;
+	background: none;	
+	text-decoration:underline;	
+}
+
+.TSPanelbar_alamassar .group .link .selected
+{
+	/**/
+}
+
+.TSPanelbar_alamassar .rootGroup .selected
+{
+	background: transparent url('Img/Btn-menu4.png') no-repeat center;
+}
+
+.TSPanelbar_alamassar .group .selected, 
+.TSPanelbar_alamassar .group .selected:hover
+{
+	background: none;
+	color:#fff;
+}
+
+.TSPanelbar_alamassar .rootGroup .expanded .text
+{	
+	font-weight: bold;	
+}
+
+.TSPanelbar_alamassar .group .selected .text
+{
+	font-weight: bold !important;
+}
+
+.TSPanelbar_alamassar .group .expanded .text
+{
+	font-weight: bold !important;
+	color:#0674A7;
+}
+
+.TSPanelbar_alamassar .level2 .text , .TSPanelbar_alamassar .level2 .link:hover .text
+{
+	background: url('img/arrow.png') no-repeat 10px 0;
+	color:#0674A7;
+	padding-left:25px !important;		
+}
+.TSPanelbar_alamassar .level3 .text , .TSPanelbar_alamassar .level3 .link:hover .text
+{
+	background: url('img/arrow.png') no-repeat 25px 0;
+	color:#0674A7;
+	padding-left:35px !important;		
+}
+
+
+/****************RTL*******************************/
+
+.TSPanelbar_alamassar_rtl
+{
+	background: transparent;
+	white-space: nowrap;
+}
+
+.TSPanelbar_alamassar_rtl .rootGroup
+{
+}
+.TSPanelbar_alamassar_rtl .rootGroup .link:hover 
+{
+background: transparent url('Img/Btn-menu-ar.html') no-repeat ;
+	text-decoration:none;
+}
+.TSPanelbar_alamassar_rtl .text
+{
+	color: #FFF;	
+	font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	height:34px;	
+}
+
+.TSPanelbar_alamassar_rtl .image
+{
+	margin: 4px 0px;
+	border:1px solid red ;
+}
+
+.TSPanelbar_alamassar_rtl .rootGroup .text
+{
+	background: none;
+	line-height: 28px;
+	padding-right: 45px;	
+}
+
+.TSPanelbar_alamassar_rtl .rootGroup .link
+{
+	background: transparent url('Img/Btn-menu-ar.html') no-repeat center;
+}
+
+.TSPanelbar_alamassar_rtl .group .text,.TSPanelbar_alamassar_rtl .group .link:hover .text
+{
+	 color:#a21e21;
+	height:20px;
+	background: url('img/arrow.png') no-repeat 97% 3px ;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	margin-right:25px;	
+	padding-right:20px;	
+	text-indent:5px;
+}
+
+
+.TSPanelbar_alamassar_rtl .group .link
+{
+	background: none;		
+}
+
+.TSPanelbar_alamassar_rtl .group .link:hover
+{
+	color:#FFF;
+	background: none;	
+	text-decoration:underline;	
+
+}
+
+.TSPanelbar_alamassar_rtl .group .link .selected
+{
+	/**/
+}
+
+.TSPanelbar_alamassar_rtl .rootGroup .selected
+{
+	background: transparent url('Img/Btn-menu-ar.html') no-repeat ;
+}
+
+.TSPanelbar_alamassar_rtl .group .selected, 
+.TSPanelbar_alamassar_rtl .group .selected:hover
+{
+	background: none;
+	
+}
+
+.TSPanelbar_alamassar_rtl .rootGroup .expanded .text
+{
+
+	font-weight: bold;
+}
+
+.TSPanelbar_alamassar_rtl .group .selected .text
+{
+	font-weight: bold !important;
+}
+
+.TSPanelbar_alamassar_rtl .group .expanded .text
+{
+	font-weight: bold !important;
+	color:#6e8e39;
+}
+
+.TSPanelbar_alamassar_rtl .level2 .text
+{
+	margin-left:25px !important;
+	
+}
+
+

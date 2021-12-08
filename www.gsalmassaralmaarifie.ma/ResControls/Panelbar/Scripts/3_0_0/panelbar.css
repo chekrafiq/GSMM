@@ -1,0 +1,98 @@
+.panelbar
+{
+	width:200px;
+}
+
+.panelbar .rootGroup,
+.panelbar .rootGroup_Profil,
+.panelbar .group,
+.panelbar .group_Profil,
+.panelbar .item
+{
+	margin:0;
+	padding:0;
+	list-style-image: none;
+	list-style-position:outside;
+	list-style:none;
+}
+
+/*Undo CSS attributes inherited from the menu */
+.panelbar .item
+{
+	float:none;
+	display:block;
+	position:static;
+}
+/*Undo CSS attributes inherited from the menu*/
+.panelbar .slide
+{
+    position:static;
+    float: none;
+    height:auto;
+}
+
+.panelbar .text:after,
+.panelbar .template:after,
+.panelbar .item:after
+{
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.panelbar .link,
+.panelbar .text
+{
+	text-decoration:none;
+	display:block;
+}
+
+.panelbar .image
+{
+	float:left;
+	border:0;
+	vertical-align:middle;
+}
+
+.panelbar .level1
+{
+	overflow:auto;
+	overflow-x:hidden;
+}
+
+.panelbar .link
+{
+	width:100%;
+	outline:none; /* Remove this for FF to put dotted border around the focused item */
+}
+
+.panelbar .text
+{
+	cursor:pointer;
+	_cursor:hand;
+}
+
+.panelbar .slide
+{
+	overflow:hidden;
+	display:none;
+}
+
+
+.panelbar .group
+{
+	display:none;
+}
+
+.rtl .image
+{
+	border:0;
+	float:right;
+}
+
+.rtl 
+{
+	text-align:right;
+}
